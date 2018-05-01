@@ -1,0 +1,32 @@
+Lexicographical Order
+____________________________________________________________________
+
+
+Lexicographical Order, also known as alphabetic or dictionary order, orders characters as follows: 
+For example, ball < cat, dog < dorm, Happy < happy, Zoo < ball.
+
+
+
+
+
+
+
+
+
+
+
+Comparing Lexicographical Order of Strings in Java:
+
+
+	    The Java String class provides the .compareTo () method in order to lexicographically compare Strings. It is used like this "apple".compareTo ("banana").
+	
+	    The return of this method is an int which can be interpreted as follows:
+
+			- returns < 0 then the String calling the method is lexicographically first (comes first in a dictionary)
+
+			- returns == 0 then the two strings are lexicographically equivalent
+	
+			- returns > 0 then the parameter passed to the compareTo method is lexicographically first.
+
+
+
