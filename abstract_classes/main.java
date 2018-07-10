@@ -30,23 +30,18 @@
 public class main{
     public static void main(String[] args){
 
-    }
+
+		Employee E1 = new Employee("Jim");
+		
+
+
+
+	}
 }
-
-
-
-
-
-
-
-
 
 abstract class Person{
 
     public abstract String getDescription();
-
-
-
 
     private String name;
     public Person(String name){
@@ -55,31 +50,11 @@ abstract class Person{
     public String getName(){
         return name;
     }
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class Employee extends Person{
 
     private double salary;
-    private LocalDate hireDay;
     
     
 }
